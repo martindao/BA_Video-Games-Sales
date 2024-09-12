@@ -37,7 +37,7 @@ momentum.
 
 ## Quality & Automation
 - Keep CSVs under version control with LFS if they exceed GitHub’s size limits.
-- Before committing notebooks, clear outputs (`jupyter nbconvert --clear-output`)
+- Before pushing notebook changes, clear outputs (`jupyter nbconvert --clear-output`)
   to keep diffs manageable.
 - When sharing results, export the dashboard to `.pdf` (already in repo) so
   stakeholders without Power BI can review the insights.
